@@ -19,11 +19,11 @@
         },
         {
           "name": "SERVER_URL_BASE",
-          "value": "https://api.na.bambora.com"
+          "value": "https://cgy1-api.na.bambora.com"
         },
         {
           "name": "QUERYSTRING_SERVER_URL_BASE",
-          "value": "https://sandbox-web.na.bambora.com"
+          "value": "https://cgy1-web.na.bambora.com"
         },
         {
           "name": "AWS_DEFAULT_REGION",
