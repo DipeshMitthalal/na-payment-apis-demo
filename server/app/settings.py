@@ -28,7 +28,7 @@ try:
     sandbox_merchant_id = ssmclient.get_parameter(Name="paymentapidemo-MERCHANT_ID", WithDecryption=True)['Parameter']['Value']
     sandbox_api_passcode = ssmclient.get_parameter(Name="paymentapidemo-API_PASSCODE", WithDecryption=True)['Parameter'][
         'Value']
-    sandbox_hash_key = ssmclient.get_parameter(Name="paymentapidemo-SANDBOX_HASH_KEY", WithDecryption=True)['Parameter']['Value']
+    sandbox_hash_key = ssmclient.get_parameter(Name="paymentapidemo-HASH_KEY", WithDecryption=True)['Parameter']['Value']
     sandbox_visa_checkout_api_key = \
     ssmclient.get_parameter(Name="paymentapidemo-SANDBOX_VISA_CHECKOUT_API_KEY", WithDecryption=True)['Parameter']['Value']
     secret_key = ssmclient.get_parameter(Name="paymentapidemo-SECRET_KEY", WithDecryption=True)['Parameter']['Value']
